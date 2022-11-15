@@ -1,3 +1,6 @@
+// Input: s = "the sky is blue"
+// Output: "blue is sky the"
+
 #include <bits/stdc++.h>
 using namespace std;
 class Solution
@@ -43,3 +46,4 @@ int main()
     cout << ans;
     return 0;
 }
+// https://leetcode.com/problems/reverse-words-in-a-string/submissions/843403507/
