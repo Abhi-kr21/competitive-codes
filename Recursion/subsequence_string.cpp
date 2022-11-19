@@ -9,8 +9,8 @@ void is(string op, string ip)
         cout << op << endl;
         return;
     }
-    string op1 = op; // here we are making the choice for not taking the element
-    string op2 = op;
+    string op1 = op;      // here we are making the choice for not taking the element
+    string op2 = op;      // here we are first copying the previous output and then in next step we are including the element
     op2.push_back(ip[0]); // here we are making choice that the element should be included
     ip.erase(ip.begin()); // here we are making the input small
     is(op1, ip);
